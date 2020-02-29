@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WSR2016_TP09__2020_"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        MinHeight="450" MaxHeight="450"
+        MinWidth="800" MaxWidth="800"
+        x:Name="MainWindow"
+        Title="MainWindow">
     <Grid>
-        
+        <Frame x:Name="frame" NavigationUIVisibility="Hidden" Background="LightGray"/>
     </Grid>
 </Window>
